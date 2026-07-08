@@ -1,11 +1,12 @@
 # Write a lambda function using filter() which accepts a list of numbers and return a list of odd numbers.
 
+Odd = lambda X : X % 2 != 0
 
 def main():
-    numbers = [1, 2, 3, 4, 5, 6]
-    odd_numbers = list(filter(lambda x: x % 2 != 0, numbers))
-    print(odd_numbers)
+    Nos = [1, 2, 3, 4, 5, 6]
+    Ret = list(filter(Odd,Nos))
 
+    print(Ret)
 
 if __name__ == "__main__":
     main()

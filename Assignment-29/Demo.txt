@@ -1,0 +1,3 @@
+Hello
+this is sample file
+to test copy content
